@@ -13,7 +13,7 @@ viewStaffBtn.addEventListener('click', function (event) {
 
     staffData.then(values => {
 
-      for (var i = 0, valuesLen = values.length; i < valuesLen; i++) {
+        for (var i = 0, valuesLen = values.length; i < valuesLen; i++) {
 
         if (values[i] == null ) {
           console.log("no data");
